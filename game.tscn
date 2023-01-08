@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Bullet.tscn" type="PackedScene" id=2]
+
+[node name="game" type="Node2D"]
+
+[node name="player" parent="." index="0" instance=ExtResource( 1 )]
+
+speed = 200
+
+[node name="Bullet" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 381.995, 156.885 )
+
+
